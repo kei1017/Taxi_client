@@ -1,0 +1,61 @@
+{
+  "booking": {
+    "_id": {
+      "$oid": "5c1bc219aa1d591b4012919e"
+    },
+    "userName": "tom",
+    "pickUp": {
+      "address": "Central Market, Phnom Penh, Cambodia",
+      "name": "Central Market",
+      "latitude": "11.569552",
+      "longitude": "11.569552"
+    },
+    "dropOff": {
+      "address": "Samdech Hun Sen St, Phnom Penh 12301, Cambodia",
+      "name": "NagaWorld Integrated Resort",
+      "latitude": "11.5560616",
+      "longitude": "11.5560616"
+    },
+    "fare": "5",
+    "status": "pending"
+  },
+
+
+  "driver": {
+    "_id": {
+      "$oid": "5c196098fb6fc04dd6efb080"
+    },
+    "firstName": "Jack",
+    "lastName": "Dom",
+    "dob": "06/03/1990",
+    "nationalID": "12345689",
+    "profilePic": "https://cdn.networkrail.co.uk/wp-content/uploads/2018/02/josh-ward-profile.jpg",
+    "rating": 5,
+    "address": {
+      "addressLine1": "Linton Uni",
+      "addressLine2": "Datul 12",
+      "city": "Mantin",
+      "state": "Negeri Seebilan",
+      "zipCode": "71700"
+    },
+    "vehicle": {
+      "bodyType": "Sedan",
+      "model": "Proton",
+      "plateNumber": "AW 7890",
+      "color": "white"
+    }
+  },
+
+  
+  "driverLocation": {
+    "_id": {
+      "$oid": "5c19623dfb6fc04dd6efb259"
+    },
+    "driverId": "5c196098fb6fc04dd6efb080",
+    "coordinate": {
+      "type": "Point",
+      "coordinates": [104.8870974, 11.5647631]
+    },
+    "socketId": "9SQKbOXA_q2MOU3FAAAB"
+  }
+}
